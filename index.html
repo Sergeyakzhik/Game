@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <title>SanBoy</title>
+        <link href="styles/styles.css" rel="stylesheet">
+    </head>
+    <body>
+        <header id="HEADER">
+            <p>THE POWER OF MIND</p>
+        </header>
+        <main>
+            <div class="main-screen-wrapper" id="MAIN_SCREEN">
+                <div class="flex-container">
+                    <div class="rules">
+                        <p class="heading">ПРАВИЛА</p>
+                        <p>Здравствуй, храбрый рыцарь! Перед тобой замок, где тебя ждут сокровища. Но чтобы их получить,
+                         тебе придётся подраться с жуткими монстрами. Для победы над монстрами тебе нужно решать задачи
+                         по математике, английскому и русскому. <br>
+                         Во время своего хода ты можешь или нанести удар по монстру, или вылечить себя.<br>
+                         Вперёд к сокровищам!</p>
+                    </div>
+                    <div class="top-players">
+                        <p class="heading">Самые умные рыцари</p>
+                        <p>???</p>
+                    </div>
+                </div>
+                <div class="play-button" id="PLAY_BUTTON">
+                    <p>Play!</p>
+                </div>
+            </div>
+            <div class="battlefield" id="BATTLEFIELD">
+                <canvas id="CNVS" width="1600" height="900"></canvas>
+                <div class="wheel-screen" id="WHEEL_SCREEN">
+                    <div class="wheel" id="WHEEL">
+                        <div class="center">
+                        </div>
+                        <div class="option attack">
+                        </div>
+                        <div class="option epic-attack">
+                        </div>
+                        <div class="option heal">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <script type="text/javascript" src="js/scripts.js"></script>
+        <script type="text/javascript" src="js/resources.js"></script>
+        <script type="text/javascript" src="js/input.js"></script>
+        <script type="text/javascript" src="js/sprite.js"></script>
+        <script type="text/javascript" src="js/main.js"></script>
+    </body>
+</html>
